@@ -53,9 +53,9 @@
      <!-- MapperScannerConfigurer会自动按照类名给每个mapper指定一个id -->
      <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
      	<!-- 扫描指定的包 -->
-     	<property name="basePackage" value="com.dao" ></property>
+     	<property name="basePackage" value="com.appsys.dao" ></property>
      </bean> 
-   <context:component-scan base-package="com.service"></context:component-scan>
-   <context:component-scan base-package="com.dao"></context:component-scan>
+   <context:component-scan base-package="com.appsys.service"></context:component-scan>
+   <context:component-scan base-package="com.appsys.dao"></context:component-scan>
    
 </beans>
