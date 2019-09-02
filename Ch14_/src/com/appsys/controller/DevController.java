@@ -1,5 +1,6 @@
 package com.appsys.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -8,8 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @RequestMapping(value="/dev")
+@Controller
 public class DevController {
-	@RequestMapping(value="/login.html")
+	@RequestMapping(value="/login")
 	public String login(){
 		return "devlogin";
 	}
