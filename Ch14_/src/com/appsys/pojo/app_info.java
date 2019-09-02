@@ -1,4 +1,4 @@
-package com.pojo;
+package com.appsys.pojo;
 
 import java.math.BigDecimal;
 import java.util.Date;
