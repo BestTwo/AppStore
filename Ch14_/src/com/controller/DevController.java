@@ -1,4 +1,4 @@
-package com.appsys.controller;
+package com.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/dev")
 public class DevController {
 	public Logger logger = Logger.getLogger(DevController.class);
-	@RequestMapping(value="/login.html")
+	@RequestMapping(value="login")
 	public String login(){
 		logger.error("sdfdsfdsfadfsdfdsfdsfafdsafefdsdf");
 		return "devlogin";
